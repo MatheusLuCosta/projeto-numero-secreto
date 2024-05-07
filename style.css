@@ -83,12 +83,14 @@ body {
 h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 65px;
+    text-align: center;
     padding-bottom: 2.5rem;
 }
 
 p,
 button {
     font-family: 'Inter', sans-serif;
+    text-align: center;
 }
 
 .texto__paragrafo {
