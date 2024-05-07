@@ -6,24 +6,15 @@
 }
 
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    background-image: url("img/dettive\ 2.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-
-body::before {
-    background-image: url("img/code.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.4;
 }
 
 .container {
@@ -45,7 +36,6 @@ body::before {
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 0;
 }
 
 .container__informacoes {
@@ -92,8 +82,8 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
-    padding-bottom: 3rem;
+    font-size: 65px;
+    padding-bottom: 2.5rem;
 }
 
 p,
